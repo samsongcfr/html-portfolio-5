@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("WAGetUserMedia",[],(function(a,b,c,d,e,f){"use strict";function a(){var a=navigator.mediaDevices;return a==null?null:function(b){return a.getUserMedia(b)}}b=a();f.getUserMedia=b}),66);
